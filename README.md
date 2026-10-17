@@ -11,6 +11,8 @@
 
 给 [monitor-probe/monitor](https://github.com/monitor-probe/monitor) 写的安卓客户端：显示**主控（hub）自身的信息**和它下面的节点，并带一个主屏小组件。
 
+**下载**：[Releases](https://github.com/Zw23333/monitor-android/releases) —— 已签名的 APK，Android 8.0+。
+
 设计语言是**安卓原生自动取色**：Android 12 及以上整个配色由系统从壁纸推导（Material You / Monet），app 不指定任何品牌色。小组件同样走 `GlanceTheme`，和 app 取同一个色源，所以两者永远不会对"主色"的理解不一致。
 
 ## 功能
