@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Only the adaptive icon's background is fixed; everything the app draws comes
+      from the Compose theme, which on Android 12+ is the wallpaper palette. The
+      launcher icon is drawn by the launcher before the app runs, so it cannot
+      follow that palette — the launcher tints the monochrome layer instead.
+    -->
+    <color name="ic_launcher_background">#FF3B4A6B</color>
+</resources>

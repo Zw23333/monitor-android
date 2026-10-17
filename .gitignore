@@ -1,0 +1,53 @@
+# ---- build output ----
+build/
+.gradle/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+local.properties
+
+# ---- IDE ----
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+captures/
+.navigation/
+.externalNativeBuild/
+.cxx/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- logs / crash dumps ----
+*.log
+*.hprof
+*.dmp
+hs_err_pid*
+replay_pid*
+crashlytics-build.properties
+
+# ---- signing material: never commit ----
+*.jks
+*.keystore
+*.bks
+*.p12
+*.pfx
+keystore.properties
+signing.properties
+release/
+output-metadata.json
+
+# ---- secrets / environment ----
+.env
+.env.*
+*.env
+secrets.properties
+google-services.json

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The Compose theme owns every colour the app draws; this XML theme only has to
+  give the window a sane background and no action bar before Compose takes over.
+  It deliberately parents a platform theme so the app carries no dependency on
+  the Material Components library for something Compose does itself.
+-->
+<resources>
+    <style name="Theme.Monitor" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">?android:attr/colorBackground</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

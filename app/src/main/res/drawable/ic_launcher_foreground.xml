@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  A heartbeat trace over a baseline: the one glyph that says "monitor" without
+  borrowing anyone's logo. Drawn inside the 72x72 safe zone of the 108x108
+  adaptive-icon viewport, so no launcher mask can clip it.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M30,54 L42,54 L47,42 L53,66 L58,54 L78,54" />
+
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M30,70 L78,70 L78,73 L30,73 Z" />
+
+</vector>
